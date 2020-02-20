@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(228, 224, 224);
+}
+
+.table-header{
+    border:0;
+    width:100%;
+    background-color: rgb(65, 95, 247);
+}
+.search{
+    width: 500px; 
+    height: 40px;
+    position: relative;
+    left:100px;
+    text-align: center;
+}
+.table-nav{
+
+    border:0;
+     width:100%; 
+     background-color:white;
+      height:8%;
+}
+
+
+
+.th-heading{
+    color:white;
+}
+
+
+.dropgown{
+    display: none;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(218, 218, 218, 0.952);
+    width: 400px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content>p:hover{
+background-color: rgba(40, 52, 228, 0.644);
+cursor: pointer;
+}
+.dropdown > span:hover{
+    color: rgba(38, 24, 233, 0.637);
+}
+.table-list{
+
+    border:0; 
+    width:100%; 
+    background-color:white;
+}
+.offer{
+    text-align: center;
+    color: green;
+}
+tr.offer>td>span{
+   animation: myani 2s infinite;
+}
+@keyframes myani{
+    0%{ color: green;}
+    25%{color: red;}
+    50%{color: yellow;}
+    75%{color: mediumvioletred; }
+    100%{color: blue;}
+}
+tr>th>span{
+    animation: myani 2s infinite;
+}
+
+.footer-list{
+    text-align: center;
+    color: white;
+}
+footer{
+    background-color: rgb(5, 6, 46);
+    padding: 50px;
+}
+.table-list-footer{
+   
+border:0; 
+    width:100%; 
+}
+.zoom > th:hover  {  
+    
+        transform: scale(1.05);
+      }
+      .pagination {
+        display: inline-block;
+        position: relative;
+        left: 35%;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+      }
+      
+      .pagination a.active {
+        background-color: rgb(65, 95, 247);
+        color: white;
+        border: 1px solid rgb(65, 95, 247);
+        
+      }
